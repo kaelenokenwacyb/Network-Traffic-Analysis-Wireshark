@@ -15,3 +15,19 @@ Key Findings:
 - Analyzed DNS queries and responses
 - Identified HTTP traffic and request/response structure
 - Used filters to isolate specific types of traffic
+
+Screenshot #1:
+- Network traffic captured in Wireshark
+- Identification of protocols such as DNS/TCP
+- Source and destination communication between devices
+Observations:
+- DNS queries and responses between client and server
+- Packet details including IP addresses and protocol types
+- How devices communicate to resolve domain names
+
+Screenshot #2:
+- Use of Wireshark filters to isolate specific traffic (ex. DNS, TCP)
+Observations:
+- Ability to narrow down large volume of traffic
+- Clearer visibility into specific protocol behavior
+- Improved analysis of packet patterns and communications flow
