@@ -9,6 +9,15 @@ Objectives:
 Tools Used:
 - Wireshark
 
+Problem
+- Large volumes of network traffic made it difficult to identify which protocols were being used and whether any unusual or inefficient behavior was occurring
+
+Solution
+- Captured live network traffic using Wireshark and applied filters to isolate specific protocols such as DNS, TCP, and HTTP
+- Analyzed packet structures to understand communication patterns between client and server devices
+- Identified normal protocol behavior, including TCP handshakes and DNS resolution processes
+- Used filtering techniques to reduce noise and focus on relevant traffic for more efficient analysis
+
 Key Findings:
 - Observed TCP handshakes and connection establishment
 - Analyzed DNS queries and responses
